@@ -26,7 +26,7 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         For Each Label As Control In GroupBox1.Controls
-            If (Label.Text = "Spirit Box") Then If Label.BackColor = Color.Transparent Then Label.BackColor = Color.Green Else If Label.BackColor = Color.Green Then Label.BackColor = Color.Transparent
+            If (Label.Text = "Spirit Box") Then Label.BackColor = Color.Green
 
 
         Next Label
@@ -35,28 +35,28 @@
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         For Each Label As Control In GroupBox1.Controls
-            If (Label.Text = "Fingerprints") Then If Label.BackColor = Color.Transparent Then Label.BackColor = Color.Green Else If Label.BackColor = Color.Green Then Label.BackColor = Color.Transparent
+            If (Label.Text = "Fingerprints") Then Label.BackColor = Color.Green
 
         Next Label
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         For Each Label As Control In GroupBox1.Controls
-            If (Label.Text = "Ghost Writing") Then If Label.BackColor = Color.Transparent Then Label.BackColor = Color.Green Else If Label.BackColor = Color.Green Then Label.BackColor = Color.Transparent
+            If (Label.Text = "Ghost Writing") Then Label.BackColor = Color.Green
 
         Next Label
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         For Each Label As Control In GroupBox1.Controls
-            If (Label.Text = "Freezing Temps") Then If Label.BackColor = Color.Transparent Then Label.BackColor = Color.Green Else If Label.BackColor = Color.Green Then Label.BackColor = Color.Transparent
+            If (Label.Text = "Freezing Temps") Then Label.BackColor = Color.Green
 
         Next Label
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         For Each Label As Control In GroupBox1.Controls
-            If (Label.Text = "EMF 5") Then If Label.BackColor = Color.Transparent Then Label.BackColor = Color.Green Else If Label.BackColor = Color.Green Then Label.BackColor = Color.Transparent
+            If (Label.Text = "EMF 5") Then Label.BackColor = Color.Green
 
 
         Next Label
@@ -64,8 +64,7 @@
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
         For Each Label As Control In GroupBox1.Controls
-            If (Label.Text = "Ghost Orb") Then If Label.BackColor = Color.Transparent Then Label.BackColor = Color.Green Else If Label.BackColor = Color.Green Then Label.BackColor = Color.Transparent
-
+            If (Label.Text = "Ghost Orb") Then Label.BackColor = Color.Green
 
         Next Label
     End Sub
@@ -75,13 +74,7 @@
             Label.BackColor = Color.Transparent
 
         Next Label
-        If CheckBox1.Checked = True Then CheckBox1.Checked = False
-        If CheckBox2.Checked = True Then CheckBox2.Checked = False
-        If CheckBox3.Checked = True Then CheckBox3.Checked = False
-        If CheckBox4.Checked = True Then CheckBox4.Checked = False
-        If CheckBox5.Checked = True Then CheckBox5.Checked = False
-        If CheckBox6.Checked = True Then CheckBox6.Checked = False
-        If CheckBox7.Checked = True Then CheckBox7.Checked = False
+
 
     End Sub
 
@@ -106,7 +99,7 @@ There are four types of questions you can ask. If the spirit box does not respon
 -Personal")
     End Sub
 
-    Private Sub Fingerprintsinfo_Click(sender As Object, e As EventArgs) Handles fingerprintsinfo.Click
+    Private Sub fingerprintsinfo_Click(sender As Object, e As EventArgs) Handles fingerprintsinfo.Click
         infobox.Clear()
         infobox.AppendText("A ghost will leave behind a finger print when it does the following:
 Interacts with a door.
@@ -118,7 +111,7 @@ You can see fingerprints by using the UV Light or the Glowstick
 Footprints, as opposed to fingerprints and handprints, DO NOT count as evidence")
     End Sub
 
-    Private Sub Ghostwritinginfo_Click(sender As Object, e As EventArgs) Handles ghostwritinginfo.Click
+    Private Sub ghostwritinginfo_Click(sender As Object, e As EventArgs) Handles ghostwritinginfo.Click
         infobox.Clear()
         infobox.AppendText("Ghost Writing Book, also known as automatic writing, is the equipment used to obtain Ghost Writing by placing it near a ghost.
 
@@ -136,11 +129,11 @@ Taking pictures with a Photo Camera of the book once written in does not give ex
 If placed within the vision of an active Video Camera, you can use the truck's monitor to see if writing has appeared.")
     End Sub
 
-    Private Sub Label49_Click_1(sender As Object, e As EventArgs)
+    Private Sub Label49_Click_1(sender As Object, e As EventArgs) Handles Label49.Click
 
     End Sub
 
-    Private Sub Freezingtempsinfo_Click(sender As Object, e As EventArgs) Handles freezingtempsinfo.Click
+    Private Sub freezingtempsinfo_Click(sender As Object, e As EventArgs) Handles freezingtempsinfo.Click
         infobox.Clear()
         infobox.AppendText("Freezing temperatures can be discovered with a thermometer (0°C/32°F) or by seeing your breath. Sometimes you can see your breath for only a moment, and that is not necessarily evidence of freezing temperatures. (possible bug) ")
     End Sub
@@ -179,10 +172,7 @@ You will know if the smudge sticks have worked due to the smoke dissipating, at 
 
     Private Sub Button9_Click_1(sender As Object, e As EventArgs) Handles Button9.Click
         infobox.Clear()
-        infobox.AppendText("🔼 Although the Spirit has no real strengths, having no unique characteristics often makes players misidentify them for another ghost. 
-🔽 Using Smudge Sticks on a Spirit will stop it attacking for twice as long as other types of Ghost.
-
-A Spirit is the most common Ghost you will come across however it is still very powerful and dangerous. They are usually discovered at one of their hunting grounds after an unexplained death.
+        infobox.AppendText("A Spirit is the most common Ghost you will come across however it is still very powerful and dangerous. They are usually discovered at one of their hunting grounds after an unexplained death.
 With no special powers and a harsh reaction to Smudge Sticks, Spirits serve as a baseline to measure other Ghosts against. Their lack of any defining traits can trip up newer investigators, as Spirits can be mistaken for other ghost types until the Evidence starts piling up.
 
 Evidence:
@@ -193,10 +183,7 @@ Fingerprints")
 
     Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
         infobox.Clear()
-        infobox.AppendText("🔼 Wraith almost never touches the ground meaning it can't be tracked by footsteps. The Wraith possesses both the power of flight and intangibility. It can travel through walls and doors without opening them, and will not leave footprints on the ground.
-🔽 Wraith has a toxic reaction to Salt. If a Wraith comes into contact with a pile of salt, it will immediately cease attacking.
-
-A Wraith is one of the most dangerous Ghosts you will find. It is also the only known ghost that has the ability of flight and has sometimes been known to travel through walls.
+        infobox.AppendText("A Wraith is one of the most dangerous Ghosts you will find. It is also the only known ghost that has the ability of flight and has sometimes been known to travel through walls.
 Wraiths are one of the 12 types of Ghosts that can be encountered in Phasmophobia, and the second one described in the Journal.
 
 Evidence:
@@ -218,11 +205,7 @@ Due to the Wraith's aversion to salt, placing piles of it on the way to your exi
 
     Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
         infobox.Clear()
-        infobox.AppendText("🔼 Looking at a Phantom will considerably drop your Sanity.
-This refers to any visible manifestations of the Phantom, including during a Hunt.
-🔽 Taking a photo of the Phantom will make it temporarily disappear. but it will not stop a Hunt.
-
-A Phantom is a Ghost that can possess the living, most commonly summoned by an Ouija Board. It also induces fear into those around it.
+        infobox.AppendText("A Phantom is a Ghost that can possess the living, most commonly summoned by an Ouija Board. It also induces fear into those around it.
 Phantoms are one of the 12 types of Ghosts that can be encountered in Phasmophobia, and the third one described in the Journal. Contrary to popular belief, the Phantom cannot possess ghost-hunters after using an Ouija Board.
 
 Evidence:
@@ -238,10 +221,7 @@ As such, phantoms in most tales typically elaborate more on the concept of being
 
     Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
         infobox.Clear()
-        infobox.AppendText("🔼 Poltergeist is capable of influencing more objects at once than any other ghosts and is capable of shutting multiple doors at once.
-🔽 Poltergeist is almost ineffective in an empty room.
-
-One of the most famous Ghosts, a Poltergeist, also known as a noisy ghost can manipulate objects around it to spread fear into its victims.
+        infobox.AppendText("One of the most famous Ghosts, a Poltergeist, also known as a noisy ghost can manipulate objects around it to spread fear into its victims.
 
 Evidence:
 Spirit Box
@@ -260,10 +240,7 @@ The Poltergeist is the sole ghost that can be identified with only 2 pieces of e
 
     Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
         infobox.Clear()
-        infobox.AppendText("🔼 Banshee will focus on one player at a time until it kills them.
-🔽 Banshee is afraid of the Crucifix, which boosts the Hunt-stopping range of one from 3 meters to 5 meters against it.
-
-The Banshee is a natural hunter and will attack anything. It has been renowned to stalk its prey one at a time until it makes its kill.
+        infobox.AppendText("The Banshee is a natural hunter and will attack anything. It has been renowned to stalk its prey one at a time until it makes its kill.
 
 Unlike other ghosts, who will often change their selected target between Hunts, Banshees will always target the same player every time it hunts until it successfully kills them. While this means other players are safe from the Banshee's power as long as its target is alive, it makes carrying out objectives by the targeted player more difficult.
 
@@ -284,10 +261,7 @@ Due to the Banshee's focus on a single-player character, determining who the tar
 
     Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
         infobox.Clear()
-        infobox.AppendText("🔼 A Jinn will travel at a faster speed if its victim is far away.
-🔽 Turning off the power source will prevent the Jinn from using its ability.
-
-A Jinn is a territorial ghost that will attack when threatened. It has also been known to travel at significant speed during Hunts.
+        infobox.AppendText("A Jinn is a territorial ghost that will attack when threatened. It has also been known to travel at significant speed during Hunts.
 
 Jinns tend to interact with electronics more than any other ghost. They may cause phones to ring, radios to activate, TV's to turn on, or car alarms to go off more often. This also extends to light switches, which may cause unsure investigators to confuse a Jinn for a Mare or Poltergeist; although Mares also have the power to turn lights off, they will not turn lights back on as Jinn does, and Poltergeists will likely disturb more general objects that aren't light switches such as doors. It is also rumoured that a Jinn is the most common ghost, despite the book claiming it to be spirit.
 
@@ -304,10 +278,7 @@ Especially-daring players can easily identify the Jinn with its behavior during 
 
     Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
         infobox.Clear()
-        infobox.AppendText("🔼 Increased chance to attack in the dark. As such, will do what it can to achieve this, such as turning off lights and tripping the power source.
-🔽 Turning the lights on will lower its chance to attack.
-
-In Phasmophobia, A Mare is the source of all nightmares, making it most powerful in the dark. As its description suggests, Mares have a higher chance of initiating hunts when players are in darkness. Mares tend to turn lights and the fuse box off more than any other ghost-type when active, although if a ghost switches lights back on, it is much more likely to be a Poltergeist or Jinn. An active Mare stalking low-sanity players have the capacity to initiate hunts within mere moments of each other, allowing them to rival even Demons in aggression.
+        infobox.AppendText("In Phasmophobia, A Mare is the source of all nightmares, making it most powerful in the dark. As its description suggests, Mares have a higher chance of initiating hunts when players are in darkness. Mares tend to turn lights and the fuse box off more than any other ghost-type when active, although if a ghost switches lights back on, it is much more likely to be a Poltergeist or Jinn. An active Mare stalking low-sanity players have the capacity to initiate hunts within mere moments of each other, allowing them to rival even Demons in aggression.
 
 Evidence:
 Freezing Temperatures
@@ -322,10 +293,7 @@ Be aware of the locations of light switches and the power source, as the Mare wi
 
     Private Sub Button18_Click(sender As Object, e As EventArgs) Handles Button18.Click
         infobox.Clear()
-        infobox.AppendText("🔼 A Revenant will travel at a significantly faster speed when hunting a victim. Additionally, the Revenant can freely switch whoever it is targeting during a Hunt.
-🔽 Hiding from the Revenant will cause it to move very slowly.
-
-The Revenant is a slow but violent ghost that will attack indiscriminately. It is said to travel at higher speed when hunting.
+        infobox.AppendText("The Revenant is a slow but violent ghost that will attack indiscriminately. It is said to travel at higher speed when hunting.
 
 Unlike other Ghosts, who will have a specific target selected when starting a Hunt they will hone in on (especially Banshees), Revenants can freely switch targets if there is another player that is closer by and especially one that is in plain view and available, making its goal of killing players more convenient.
 
@@ -337,10 +305,7 @@ Fingerprints")
 
     Private Sub Button19_Click(sender As Object, e As EventArgs) Handles Button19.Click
         infobox.Clear()
-        infobox.AppendText("🔼 As a shy ghost, a Shade will rarely perform actions in the presence of two or more people, making it harder to detect.
-🔽 Conversely, a Shade will rarely start a Hunt when players are grouped together.
-
-Noted as being shy ghosts, Shades lower their activity in the presence of multiple investigators. Because of its temperament, it can be harder to find ghost activity when sticking together. However, like all ghosts in the game, the Shade is more likely to hunt when the players' sanity is low.
+        infobox.AppendText("Noted as being shy ghosts, Shades lower their activity in the presence of multiple investigators. Because of its temperament, it can be harder to find ghost activity when sticking together. However, like all ghosts in the game, the Shade is more likely to hunt when the players' sanity is low.
 
 If a Shade is already hunting, it will prefer to target players that are alone. For it to consider a player alone, the other players have to be in a separate room, though they do not have to be far away.
 
@@ -357,10 +322,7 @@ Players should work together as a group to find the Ghost Room first and foremos
 
     Private Sub Button20_Click(sender As Object, e As EventArgs) Handles Button20.Click
         infobox.Clear()
-        infobox.AppendText("🔼 Demon will attack more often than any other ghost.
-🔽 Asking a Demon successful questions on the Ouija Board won't lower the users' sanity.
-
-In Phasmophobia, Demons are one of the most dangerous ghosts to encounter. Highly aggressive, it will attack more often than any other ghost, and without warning so a crucifix is recommended to prevent hunts. However, it will also allow ghost hunters to use the Ouija Board without reducing their sanity.
+        infobox.AppendText("In Phasmophobia, Demons are one of the most dangerous ghosts to encounter. Highly aggressive, it will attack more often than any other ghost, and without warning so a crucifix is recommended to prevent hunts. However, it will also allow ghost hunters to use the Ouija Board without reducing their sanity.
 
 If the investigation and objectives are not dealt with quickly, Demons can grow to be the most challenging ghost. They are notorious for initiating hunts frequently, a trait that is exacerbated by lower sanity levels, and compounded by higher difficulties like Professional where hunts last much longer. Taking all of these factors into account, Demons at their most aggressive will hunt in intervals as short as half-minutes, forcing the players to spend more total time hiding than investigating.
 
@@ -374,10 +336,7 @@ Spirit Box")
 
     Private Sub Button21_Click(sender As Object, e As EventArgs) Handles Button21.Click
         infobox.Clear()
-        infobox.AppendText("🔼 Yurei have been known to have a stronger effect on people's sanity.
-🔽 Using Smudge Sticks on the Yurei's room will cause it to not wander around the location for a long time.
-
-Yurei is a ghost that has returned to the physical world, usually for the purpose of revenge or hatred.
+        infobox.AppendText("Yurei is a ghost that has returned to the physical world, usually for the purpose of revenge or hatred.
 
 Evidence:
 Freezing Temperatures
@@ -387,10 +346,7 @@ Ghost Orb")
 
     Private Sub Button22_Click(sender As Object, e As EventArgs) Handles Button22.Click
         infobox.Clear()
-        infobox.AppendText("🔼 Oni is more active when people are nearby and have been seen moving objects at great speed.
-🔽 Being more active will make the Oni easier to find and identify.
-
-The Oni is a cousin to the Demon and possesses extreme strength. There have been rumours that they become more active around their prey.
+        infobox.AppendText("The Oni is a cousin to the Demon and possesses extreme strength. There have been rumours that they become more active around their prey.
 
 Evidence:
 EMF Level 5
@@ -398,7 +354,7 @@ Ghost Writing
 Spirit Box")
     End Sub
 
-    Private Sub EMF5info_Click(sender As Object, e As EventArgs) Handles emf5info.Click
+    Private Sub emf5info_Click(sender As Object, e As EventArgs) Handles emf5info.Click
         infobox.Clear()
         infobox.AppendText("The Electro-Magnetic Field Reader is a handheld device used to detect fluctuations in electromagnetic fields left behind by paranormal activity. It will beep with increasing volume depending on the amount of activity nearby.
 An EMF Reader is a purchasable piece of equipment used to read the current EMF in the location. It consists of a small white box with 5 lights. 2 green, 1 yellow, 1 orange and 1 red. When the item is turned on, the first light will light up.
@@ -421,7 +377,7 @@ Like any tool, to silently disable the item, swap to an inactive item or empty h
 If placed within the vision of an active Video Camera, the EMF reader's level can be read safely from inside the truck. Photographing an image of it on the truck's computer screen will not count as evidence.")
     End Sub
 
-    Private Sub Ghostorbinfo_Click(sender As Object, e As EventArgs) Handles ghostorbinfo.Click
+    Private Sub ghostorbinfo_Click(sender As Object, e As EventArgs) Handles ghostorbinfo.Click
         infobox.Clear()
         infobox.AppendText("Ghost Orbs are a type of Evidence which are emitted from the Ghost Room, and look like very small yellow floating orbs. They can be seen on the computer screen using a Video Camera or a Head Mounted Camera with night vision. Camera placement is key to detecting ghost orbs. Once the ghost room/area is found, a good strategy to use is placing two cameras in the corners of the room facing each-other to maximize coverage, or outside the room pointing in. It's also a good idea to place one or more cameras outside the room to catch the ghost if it roams.")
     End Sub
@@ -435,62 +391,6 @@ If placed within the vision of an active Video Camera, the EMF reader's level ca
         infobox.Clear()
         infobox.AppendText("I got most of this information from https://steamcommunity.com/sharedfiles/filedetails/?id=2267517404 and https://steamcommunity.com/sharedfiles/filedetails/?id=2263827459&insideModal=0
 
-Big Thanks to Marvin Poling for taking my basic Excel of this project and creating it into a program for me to make snazzy, and my friends for helping me figure it out and make it better :)")
-    End Sub
-
-    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
-
-    End Sub
-
-    Private Sub CheckedListBox1_SelectedIndexChanged(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
-
-    End Sub
-
-    Private Sub Button24_Click(sender As Object, e As EventArgs) Handles Button24.Click
-        ComboBox1.Items.Clear()
-        ComboBox1.ResetText()
-        TextBox1.Clear()
-        ComboBox2.Items.Clear()
-        ComboBox2.ResetText()
-        ComboBox3.Items.Clear()
-        ComboBox3.ResetText()
-
-
-    End Sub
-
-    Private Sub Label51_Click(sender As Object, e As EventArgs) Handles Label51.Click
-
-    End Sub
-
-    Private Sub Label55_Click(sender As Object, e As EventArgs) Handles Label55.Click
-
-    End Sub
-
-    Private Sub Label53_Click(sender As Object, e As EventArgs) Handles Label53.Click
-
-    End Sub
-
-    Private Sub Label54_Click(sender As Object, e As EventArgs) Handles Label54.Click
-
-    End Sub
-
-    Private Sub Button26_Click(sender As Object, e As EventArgs) Handles Button26.Click
-        infobox.Clear()
-        infobox.AppendText("🔼 Talking near a Tokay will anger it and increase its chance of attacking.
-🔽 When hunting, a Yokai can only hear voices close to it.")
-    End Sub
-
-    Private Sub Button25_Click(sender As Object, e As EventArgs) Handles Button25.Click
-        infobox.Clear()
-        infobox.AppendText("🔼 Lower temperatures can cause the Hantu to move at faster speeds.
-🔽 A Hantu will move slower in warmer areas.")
+If you have any questions comments or concerns, feel free to email me at rawrzorsstreams@gmail.com")
     End Sub
 End Class

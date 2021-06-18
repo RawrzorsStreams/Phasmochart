@@ -1,0 +1,16 @@
+C:\Users\nmwhi\Desktop\phasmochart\phasmochart2\phasmochart2\bin\Release\phasmochart2.exe.manifest
+C:\Users\nmwhi\Desktop\phasmochart\phasmochart2\phasmochart2\bin\Release\phasmochart2.application
+C:\Users\nmwhi\Desktop\phasmochart\phasmochart2\phasmochart2\bin\Release\phasmochart2.exe
+C:\Users\nmwhi\Desktop\phasmochart\phasmochart2\phasmochart2\bin\Release\phasmochart2.pdb
+C:\Users\nmwhi\Desktop\phasmochart\phasmochart2\phasmochart2\bin\Release\phasmochart2.xml
+C:\Users\nmwhi\Desktop\phasmochart\phasmochart2\phasmochart2\obj\Release\phasmochart2.vbprojAssemblyReference.cache
+C:\Users\nmwhi\Desktop\phasmochart\phasmochart2\phasmochart2\obj\Release\phasmochart2.Form1.resources
+C:\Users\nmwhi\Desktop\phasmochart\phasmochart2\phasmochart2\obj\Release\phasmochart2.Resources.resources
+C:\Users\nmwhi\Desktop\phasmochart\phasmochart2\phasmochart2\obj\Release\phasmochart2.vbproj.GenerateResource.cache
+C:\Users\nmwhi\Desktop\phasmochart\phasmochart2\phasmochart2\obj\Release\phasmochart2.vbproj.CoreCompileInputs.cache
+C:\Users\nmwhi\Desktop\phasmochart\phasmochart2\phasmochart2\obj\Release\phasmochart2.TrustInfo.xml
+C:\Users\nmwhi\Desktop\phasmochart\phasmochart2\phasmochart2\obj\Release\phasmochart2.exe.manifest
+C:\Users\nmwhi\Desktop\phasmochart\phasmochart2\phasmochart2\obj\Release\phasmochart2.application
+C:\Users\nmwhi\Desktop\phasmochart\phasmochart2\phasmochart2\obj\Release\phasmochart2.exe
+C:\Users\nmwhi\Desktop\phasmochart\phasmochart2\phasmochart2\obj\Release\phasmochart2.xml
+C:\Users\nmwhi\Desktop\phasmochart\phasmochart2\phasmochart2\obj\Release\phasmochart2.pdb

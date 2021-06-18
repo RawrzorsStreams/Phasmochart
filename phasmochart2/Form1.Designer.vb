@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()>
+    <System.Diagnostics.DebuggerNonUserCode()> _
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()>
+    <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
@@ -79,57 +79,33 @@ Partial Class Form1
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Button22 = New System.Windows.Forms.Button()
-        Me.Button21 = New System.Windows.Forms.Button()
-        Me.Button20 = New System.Windows.Forms.Button()
-        Me.Button19 = New System.Windows.Forms.Button()
-        Me.Button18 = New System.Windows.Forms.Button()
-        Me.Button17 = New System.Windows.Forms.Button()
-        Me.Button16 = New System.Windows.Forms.Button()
-        Me.Button15 = New System.Windows.Forms.Button()
-        Me.Button14 = New System.Windows.Forms.Button()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.infobox = New System.Windows.Forms.RichTextBox()
+        Me.Button8 = New System.Windows.Forms.Button()
         Me.Spiritboxinfo = New System.Windows.Forms.Button()
+        Me.Button10 = New System.Windows.Forms.Button()
+        Me.Button11 = New System.Windows.Forms.Button()
         Me.fingerprintsinfo = New System.Windows.Forms.Button()
         Me.ghostwritinginfo = New System.Windows.Forms.Button()
         Me.freezingtempsinfo = New System.Windows.Forms.Button()
         Me.emf5info = New System.Windows.Forms.Button()
         Me.ghostorbinfo = New System.Windows.Forms.Button()
         Me.ToolTip2 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.Button23 = New System.Windows.Forms.Button()
-        Me.Label50 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Button12 = New System.Windows.Forms.Button()
+        Me.Button13 = New System.Windows.Forms.Button()
+        Me.Button14 = New System.Windows.Forms.Button()
+        Me.Button15 = New System.Windows.Forms.Button()
+        Me.Button16 = New System.Windows.Forms.Button()
+        Me.Button17 = New System.Windows.Forms.Button()
+        Me.Button18 = New System.Windows.Forms.Button()
+        Me.Button19 = New System.Windows.Forms.Button()
+        Me.Button20 = New System.Windows.Forms.Button()
+        Me.Button21 = New System.Windows.Forms.Button()
+        Me.Button22 = New System.Windows.Forms.Button()
         Me.Label49 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-        Me.Button24 = New System.Windows.Forms.Button()
-        Me.Label52 = New System.Windows.Forms.Label()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox4 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox5 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox6 = New System.Windows.Forms.CheckBox()
-        Me.infobox = New System.Windows.Forms.RichTextBox()
-        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
-        Me.Label51 = New System.Windows.Forms.Label()
-        Me.Label53 = New System.Windows.Forms.Label()
-        Me.Label54 = New System.Windows.Forms.Label()
-        Me.Label55 = New System.Windows.Forms.Label()
-        Me.Label56 = New System.Windows.Forms.Label()
-        Me.Label57 = New System.Windows.Forms.Label()
-        Me.Label58 = New System.Windows.Forms.Label()
-        Me.Label59 = New System.Windows.Forms.Label()
-        Me.Button25 = New System.Windows.Forms.Button()
-        Me.Button26 = New System.Windows.Forms.Button()
+        Me.Button23 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -144,6 +120,7 @@ Partial Class Form1
         Me.Label1.Size = New System.Drawing.Size(156, 24)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Spirit"
+        Me.ToolTip1.SetToolTip(Me.Label1, resources.GetString("Label1.ToolTip"))
         '
         'Label2
         '
@@ -156,6 +133,7 @@ Partial Class Form1
         Me.Label2.Size = New System.Drawing.Size(156, 24)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Wraith"
+        Me.ToolTip1.SetToolTip(Me.Label2, resources.GetString("Label2.ToolTip"))
         '
         'Label3
         '
@@ -168,6 +146,7 @@ Partial Class Form1
         Me.Label3.Size = New System.Drawing.Size(156, 24)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Phantom"
+        Me.ToolTip1.SetToolTip(Me.Label3, resources.GetString("Label3.ToolTip"))
         '
         'Label4
         '
@@ -180,6 +159,9 @@ Partial Class Form1
         Me.Label4.Size = New System.Drawing.Size(156, 24)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Poltergeist"
+        Me.ToolTip1.SetToolTip(Me.Label4, "🔼 Poltergeist is capable of influencing more objects at once than any other ghos" &
+        "ts and is capable of shutting multiple doors at once." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "🔽 Poltergeist is almost " &
+        "ineffective in an empty room.")
         '
         'Label5
         '
@@ -192,6 +174,9 @@ Partial Class Form1
         Me.Label5.Size = New System.Drawing.Size(156, 24)
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "Banshee"
+        Me.ToolTip1.SetToolTip(Me.Label5, "🔼 Banshee will focus on one player at a time until it kills them." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "🔽 Banshee is" &
+        " afraid of the Crucifix, which boosts the Hunt-stopping range of one from 3 mete" &
+        "rs to 5 meters against it.")
         '
         'Label6
         '
@@ -204,6 +189,8 @@ Partial Class Form1
         Me.Label6.Size = New System.Drawing.Size(156, 24)
         Me.Label6.TabIndex = 5
         Me.Label6.Text = "Jinn"
+        Me.ToolTip1.SetToolTip(Me.Label6, "🔼 A Jinn will travel at a faster speed if its victim is far away." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "🔽 Turning of" &
+        "f the power source will prevent the Jinn from using its ability.")
         '
         'Label7
         '
@@ -216,6 +203,7 @@ Partial Class Form1
         Me.Label7.Size = New System.Drawing.Size(156, 24)
         Me.Label7.TabIndex = 6
         Me.Label7.Text = "Mare"
+        Me.ToolTip1.SetToolTip(Me.Label7, resources.GetString("Label7.ToolTip"))
         '
         'Label8
         '
@@ -228,6 +216,7 @@ Partial Class Form1
         Me.Label8.Size = New System.Drawing.Size(156, 24)
         Me.Label8.TabIndex = 7
         Me.Label8.Text = "Revenant"
+        Me.ToolTip1.SetToolTip(Me.Label8, resources.GetString("Label8.ToolTip"))
         '
         'Label9
         '
@@ -253,6 +242,8 @@ Partial Class Form1
         Me.Label10.Size = New System.Drawing.Size(156, 24)
         Me.Label10.TabIndex = 9
         Me.Label10.Text = "Demon"
+        Me.ToolTip1.SetToolTip(Me.Label10, "🔼 Demon will attack more often than any other ghost." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "🔽 Asking a Demon successf" &
+        "ul questions on the Ouija Board won't lower the users' sanity.")
         '
         'Label11
         '
@@ -265,6 +256,9 @@ Partial Class Form1
         Me.Label11.Size = New System.Drawing.Size(156, 24)
         Me.Label11.TabIndex = 10
         Me.Label11.Text = "Yurei"
+        Me.ToolTip1.SetToolTip(Me.Label11, "🔼 Yurei have been known to have a stronger effect on people's sanity." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "🔽 Using " &
+        "Smudge Sticks on the Yurei's room will cause it to not wander around the locatio" &
+        "n for a long time.")
         '
         'Label12
         '
@@ -277,6 +271,9 @@ Partial Class Form1
         Me.Label12.Size = New System.Drawing.Size(156, 24)
         Me.Label12.TabIndex = 11
         Me.Label12.Text = "Oni"
+        Me.ToolTip1.SetToolTip(Me.Label12, "🔼 Oni is more active when people are nearby and have been seen moving objects at" &
+        " great speed." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "🔽 Being more active will make the Oni easier to find and identif" &
+        "y.")
         '
         'Label13
         '
@@ -712,7 +709,7 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(651, 5)
+        Me.Button1.Location = New System.Drawing.Point(651, 31)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(102, 32)
         Me.Button1.TabIndex = 48
@@ -721,7 +718,7 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(651, 43)
+        Me.Button2.Location = New System.Drawing.Point(651, 78)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(102, 32)
         Me.Button2.TabIndex = 49
@@ -731,7 +728,7 @@ Partial Class Form1
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(651, 81)
+        Me.Button3.Location = New System.Drawing.Point(651, 125)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(102, 32)
         Me.Button3.TabIndex = 50
@@ -740,7 +737,7 @@ Partial Class Form1
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(651, 119)
+        Me.Button4.Location = New System.Drawing.Point(651, 172)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(102, 32)
         Me.Button4.TabIndex = 51
@@ -749,7 +746,7 @@ Partial Class Form1
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(651, 158)
+        Me.Button5.Location = New System.Drawing.Point(651, 219)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(102, 32)
         Me.Button5.TabIndex = 52
@@ -758,7 +755,7 @@ Partial Class Form1
         '
         'Button6
         '
-        Me.Button6.Location = New System.Drawing.Point(651, 197)
+        Me.Button6.Location = New System.Drawing.Point(651, 266)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(102, 32)
         Me.Button6.TabIndex = 53
@@ -768,16 +765,7 @@ Partial Class Form1
         'GroupBox1
         '
         Me.GroupBox1.BackgroundImage = CType(resources.GetObject("GroupBox1.BackgroundImage"), System.Drawing.Image)
-        Me.GroupBox1.Controls.Add(Me.Button25)
-        Me.GroupBox1.Controls.Add(Me.Button26)
-        Me.GroupBox1.Controls.Add(Me.Label56)
-        Me.GroupBox1.Controls.Add(Me.Label57)
-        Me.GroupBox1.Controls.Add(Me.Label58)
-        Me.GroupBox1.Controls.Add(Me.Label59)
-        Me.GroupBox1.Controls.Add(Me.Label53)
-        Me.GroupBox1.Controls.Add(Me.Label54)
-        Me.GroupBox1.Controls.Add(Me.Label55)
-        Me.GroupBox1.Controls.Add(Me.Label51)
+        Me.GroupBox1.Controls.Add(Me.Label49)
         Me.GroupBox1.Controls.Add(Me.Button22)
         Me.GroupBox1.Controls.Add(Me.Button21)
         Me.GroupBox1.Controls.Add(Me.Button20)
@@ -796,9 +784,12 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.Label40)
         Me.GroupBox1.Controls.Add(Me.Label41)
         Me.GroupBox1.Controls.Add(Me.Label42)
+        Me.GroupBox1.Controls.Add(Me.Button11)
         Me.GroupBox1.Controls.Add(Me.Label43)
+        Me.GroupBox1.Controls.Add(Me.Button10)
         Me.GroupBox1.Controls.Add(Me.Label44)
         Me.GroupBox1.Controls.Add(Me.Label45)
+        Me.GroupBox1.Controls.Add(Me.Button8)
         Me.GroupBox1.Controls.Add(Me.Label46)
         Me.GroupBox1.Controls.Add(Me.Label47)
         Me.GroupBox1.Controls.Add(Me.Label48)
@@ -838,144 +829,131 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Font = New System.Drawing.Font("Papyrus", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(2, -18)
+        Me.GroupBox1.Location = New System.Drawing.Point(3, 21)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(644, 374)
+        Me.GroupBox1.Size = New System.Drawing.Size(642, 332)
         Me.GroupBox1.TabIndex = 54
         Me.GroupBox1.TabStop = False
         '
-        'Button22
+        'Button7
         '
-        Me.Button22.BackgroundImage = CType(resources.GetObject("Button22.BackgroundImage"), System.Drawing.Image)
-        Me.Button22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button22.Location = New System.Drawing.Point(138, 296)
-        Me.Button22.Name = "Button22"
-        Me.Button22.Size = New System.Drawing.Size(24, 23)
-        Me.Button22.TabIndex = 73
-        Me.Button22.TabStop = False
-        Me.ToolTip2.SetToolTip(Me.Button22, "Oni")
-        Me.Button22.UseVisualStyleBackColor = True
+        Me.Button7.Location = New System.Drawing.Point(651, 312)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(102, 32)
+        Me.Button7.TabIndex = 55
+        Me.Button7.Text = "Reset"
+        Me.Button7.UseVisualStyleBackColor = True
         '
-        'Button21
+        'ToolTip1
         '
-        Me.Button21.BackgroundImage = CType(resources.GetObject("Button21.BackgroundImage"), System.Drawing.Image)
-        Me.Button21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button21.Location = New System.Drawing.Point(138, 272)
-        Me.Button21.Name = "Button21"
-        Me.Button21.Size = New System.Drawing.Size(24, 23)
-        Me.Button21.TabIndex = 72
-        Me.Button21.TabStop = False
-        Me.ToolTip2.SetToolTip(Me.Button21, "Yurei")
-        Me.Button21.UseVisualStyleBackColor = True
+        Me.ToolTip1.AutomaticDelay = 400
+        Me.ToolTip1.ToolTipTitle = "Strengths/Weaknesses"
         '
-        'Button20
+        'infobox
         '
-        Me.Button20.BackgroundImage = CType(resources.GetObject("Button20.BackgroundImage"), System.Drawing.Image)
-        Me.Button20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button20.Location = New System.Drawing.Point(138, 248)
-        Me.Button20.Name = "Button20"
-        Me.Button20.Size = New System.Drawing.Size(24, 23)
-        Me.Button20.TabIndex = 71
-        Me.Button20.TabStop = False
-        Me.ToolTip2.SetToolTip(Me.Button20, "Demon")
-        Me.Button20.UseVisualStyleBackColor = True
+        Me.infobox.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.infobox.Location = New System.Drawing.Point(12, 359)
+        Me.infobox.Name = "infobox"
+        Me.infobox.Size = New System.Drawing.Size(776, 121)
+        Me.infobox.TabIndex = 57
+        Me.infobox.Text = ""
         '
-        'Button19
+        'Button8
         '
-        Me.Button19.BackgroundImage = CType(resources.GetObject("Button19.BackgroundImage"), System.Drawing.Image)
-        Me.Button19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button19.Location = New System.Drawing.Point(138, 224)
-        Me.Button19.Name = "Button19"
-        Me.Button19.Size = New System.Drawing.Size(24, 23)
-        Me.Button19.TabIndex = 70
-        Me.Button19.TabStop = False
-        Me.ToolTip2.SetToolTip(Me.Button19, "Shade")
-        Me.Button19.UseVisualStyleBackColor = True
+        Me.Button8.Location = New System.Drawing.Point(246, 5)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(75, 23)
+        Me.Button8.TabIndex = 58
+        Me.Button8.Text = "Crucifix"
+        Me.Button8.UseVisualStyleBackColor = True
         '
-        'Button18
+        'Spiritboxinfo
         '
-        Me.Button18.BackgroundImage = CType(resources.GetObject("Button18.BackgroundImage"), System.Drawing.Image)
-        Me.Button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button18.Location = New System.Drawing.Point(138, 200)
-        Me.Button18.Name = "Button18"
-        Me.Button18.Size = New System.Drawing.Size(24, 23)
-        Me.Button18.TabIndex = 69
-        Me.Button18.TabStop = False
-        Me.ToolTip2.SetToolTip(Me.Button18, "Revenant")
-        Me.Button18.UseVisualStyleBackColor = True
+        Me.Spiritboxinfo.BackgroundImage = CType(resources.GetObject("Spiritboxinfo.BackgroundImage"), System.Drawing.Image)
+        Me.Spiritboxinfo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Spiritboxinfo.Location = New System.Drawing.Point(764, 36)
+        Me.Spiritboxinfo.Name = "Spiritboxinfo"
+        Me.Spiritboxinfo.Size = New System.Drawing.Size(24, 23)
+        Me.Spiritboxinfo.TabIndex = 59
+        Me.ToolTip2.SetToolTip(Me.Spiritboxinfo, "Spirit Box")
+        Me.Spiritboxinfo.UseVisualStyleBackColor = True
         '
-        'Button17
+        'Button10
         '
-        Me.Button17.BackgroundImage = CType(resources.GetObject("Button17.BackgroundImage"), System.Drawing.Image)
-        Me.Button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button17.Location = New System.Drawing.Point(138, 176)
-        Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(24, 23)
-        Me.Button17.TabIndex = 68
-        Me.Button17.TabStop = False
-        Me.ToolTip2.SetToolTip(Me.Button17, "Mare")
-        Me.Button17.UseVisualStyleBackColor = True
+        Me.Button10.Location = New System.Drawing.Point(165, 5)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(75, 23)
+        Me.Button10.TabIndex = 60
+        Me.Button10.Text = "Smudge"
+        Me.Button10.UseVisualStyleBackColor = True
         '
-        'Button16
+        'Button11
         '
-        Me.Button16.BackgroundImage = CType(resources.GetObject("Button16.BackgroundImage"), System.Drawing.Image)
-        Me.Button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button16.Location = New System.Drawing.Point(138, 152)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(24, 23)
-        Me.Button16.TabIndex = 67
-        Me.Button16.TabStop = False
-        Me.ToolTip2.SetToolTip(Me.Button16, "Jinn")
-        Me.Button16.UseVisualStyleBackColor = True
+        Me.Button11.Location = New System.Drawing.Point(327, 5)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(75, 23)
+        Me.Button11.TabIndex = 61
+        Me.Button11.Text = "Placeholder"
+        Me.Button11.UseVisualStyleBackColor = True
         '
-        'Button15
+        'fingerprintsinfo
         '
-        Me.Button15.BackgroundImage = CType(resources.GetObject("Button15.BackgroundImage"), System.Drawing.Image)
-        Me.Button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button15.Location = New System.Drawing.Point(138, 128)
-        Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(24, 23)
-        Me.Button15.TabIndex = 66
-        Me.Button15.TabStop = False
-        Me.ToolTip2.SetToolTip(Me.Button15, "Banshee")
-        Me.Button15.UseVisualStyleBackColor = True
+        Me.fingerprintsinfo.BackgroundImage = CType(resources.GetObject("fingerprintsinfo.BackgroundImage"), System.Drawing.Image)
+        Me.fingerprintsinfo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.fingerprintsinfo.Location = New System.Drawing.Point(764, 83)
+        Me.fingerprintsinfo.Name = "fingerprintsinfo"
+        Me.fingerprintsinfo.Size = New System.Drawing.Size(24, 23)
+        Me.fingerprintsinfo.TabIndex = 68
+        Me.ToolTip2.SetToolTip(Me.fingerprintsinfo, "Fingerprints")
+        Me.fingerprintsinfo.UseVisualStyleBackColor = True
         '
-        'Button14
+        'ghostwritinginfo
         '
-        Me.Button14.BackgroundImage = CType(resources.GetObject("Button14.BackgroundImage"), System.Drawing.Image)
-        Me.Button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button14.Location = New System.Drawing.Point(138, 104)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(24, 23)
-        Me.Button14.TabIndex = 65
-        Me.Button14.TabStop = False
-        Me.ToolTip2.SetToolTip(Me.Button14, "Poltergeist")
-        Me.Button14.UseVisualStyleBackColor = True
+        Me.ghostwritinginfo.BackgroundImage = CType(resources.GetObject("ghostwritinginfo.BackgroundImage"), System.Drawing.Image)
+        Me.ghostwritinginfo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ghostwritinginfo.Location = New System.Drawing.Point(764, 130)
+        Me.ghostwritinginfo.Name = "ghostwritinginfo"
+        Me.ghostwritinginfo.Size = New System.Drawing.Size(24, 23)
+        Me.ghostwritinginfo.TabIndex = 69
+        Me.ToolTip2.SetToolTip(Me.ghostwritinginfo, "Ghost Writing")
+        Me.ghostwritinginfo.UseVisualStyleBackColor = True
         '
-        'Button13
+        'freezingtempsinfo
         '
-        Me.Button13.BackgroundImage = CType(resources.GetObject("Button13.BackgroundImage"), System.Drawing.Image)
-        Me.Button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button13.Location = New System.Drawing.Point(138, 80)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(24, 23)
-        Me.Button13.TabIndex = 64
-        Me.Button13.TabStop = False
-        Me.ToolTip2.SetToolTip(Me.Button13, "Phantom")
-        Me.Button13.UseVisualStyleBackColor = True
+        Me.freezingtempsinfo.BackgroundImage = CType(resources.GetObject("freezingtempsinfo.BackgroundImage"), System.Drawing.Image)
+        Me.freezingtempsinfo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.freezingtempsinfo.Location = New System.Drawing.Point(764, 177)
+        Me.freezingtempsinfo.Name = "freezingtempsinfo"
+        Me.freezingtempsinfo.Size = New System.Drawing.Size(24, 23)
+        Me.freezingtempsinfo.TabIndex = 70
+        Me.ToolTip2.SetToolTip(Me.freezingtempsinfo, "Freezing Temps")
+        Me.freezingtempsinfo.UseVisualStyleBackColor = True
         '
-        'Button12
+        'emf5info
         '
-        Me.Button12.BackgroundImage = CType(resources.GetObject("Button12.BackgroundImage"), System.Drawing.Image)
-        Me.Button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button12.Location = New System.Drawing.Point(138, 56)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(24, 23)
-        Me.Button12.TabIndex = 63
-        Me.Button12.TabStop = False
-        Me.ToolTip2.SetToolTip(Me.Button12, "Wraith")
-        Me.Button12.UseVisualStyleBackColor = True
+        Me.emf5info.BackgroundImage = CType(resources.GetObject("emf5info.BackgroundImage"), System.Drawing.Image)
+        Me.emf5info.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.emf5info.Location = New System.Drawing.Point(764, 224)
+        Me.emf5info.Name = "emf5info"
+        Me.emf5info.Size = New System.Drawing.Size(24, 23)
+        Me.emf5info.TabIndex = 71
+        Me.ToolTip2.SetToolTip(Me.emf5info, "EMF 5")
+        Me.emf5info.UseVisualStyleBackColor = True
+        '
+        'ghostorbinfo
+        '
+        Me.ghostorbinfo.BackgroundImage = CType(resources.GetObject("ghostorbinfo.BackgroundImage"), System.Drawing.Image)
+        Me.ghostorbinfo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ghostorbinfo.Location = New System.Drawing.Point(764, 271)
+        Me.ghostorbinfo.Name = "ghostorbinfo"
+        Me.ghostorbinfo.Size = New System.Drawing.Size(24, 23)
+        Me.ghostorbinfo.TabIndex = 72
+        Me.ToolTip2.SetToolTip(Me.ghostorbinfo, "Ghost Orb")
+        Me.ghostorbinfo.UseVisualStyleBackColor = True
+        '
+        'ToolTip2
+        '
+        Me.ToolTip2.ToolTipTitle = "Information"
         '
         'Button9
         '
@@ -985,439 +963,148 @@ Partial Class Form1
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(24, 23)
         Me.Button9.TabIndex = 62
-        Me.Button9.TabStop = False
-        Me.ToolTip2.SetToolTip(Me.Button9, "Spirit")
+        Me.ToolTip2.SetToolTip(Me.Button9, "Spirit Box")
         Me.Button9.UseVisualStyleBackColor = True
         '
-        'Button11
+        'Button12
         '
-        Me.Button11.Location = New System.Drawing.Point(155, 474)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(66, 23)
-        Me.Button11.TabIndex = 61
-        Me.Button11.TabStop = False
-        Me.Button11.Text = "Clear Box"
-        Me.Button11.UseVisualStyleBackColor = True
+        Me.Button12.BackgroundImage = CType(resources.GetObject("Button12.BackgroundImage"), System.Drawing.Image)
+        Me.Button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button12.Location = New System.Drawing.Point(138, 56)
+        Me.Button12.Name = "Button12"
+        Me.Button12.Size = New System.Drawing.Size(24, 23)
+        Me.Button12.TabIndex = 63
+        Me.ToolTip2.SetToolTip(Me.Button12, "Spirit Box")
+        Me.Button12.UseVisualStyleBackColor = True
         '
-        'Button10
+        'Button13
         '
-        Me.Button10.Location = New System.Drawing.Point(155, 396)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(66, 23)
-        Me.Button10.TabIndex = 60
-        Me.Button10.TabStop = False
-        Me.Button10.Text = "Smudge"
-        Me.Button10.UseVisualStyleBackColor = True
+        Me.Button13.BackgroundImage = CType(resources.GetObject("Button13.BackgroundImage"), System.Drawing.Image)
+        Me.Button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button13.Location = New System.Drawing.Point(138, 80)
+        Me.Button13.Name = "Button13"
+        Me.Button13.Size = New System.Drawing.Size(24, 23)
+        Me.Button13.TabIndex = 64
+        Me.ToolTip2.SetToolTip(Me.Button13, "Spirit Box")
+        Me.Button13.UseVisualStyleBackColor = True
         '
-        'Button8
+        'Button14
         '
-        Me.Button8.Location = New System.Drawing.Point(155, 422)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(66, 23)
-        Me.Button8.TabIndex = 58
-        Me.Button8.TabStop = False
-        Me.Button8.Text = "Crucifix"
-        Me.Button8.UseVisualStyleBackColor = True
+        Me.Button14.BackgroundImage = CType(resources.GetObject("Button14.BackgroundImage"), System.Drawing.Image)
+        Me.Button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button14.Location = New System.Drawing.Point(138, 104)
+        Me.Button14.Name = "Button14"
+        Me.Button14.Size = New System.Drawing.Size(24, 23)
+        Me.Button14.TabIndex = 65
+        Me.ToolTip2.SetToolTip(Me.Button14, "Spirit Box")
+        Me.Button14.UseVisualStyleBackColor = True
         '
-        'Button7
+        'Button15
         '
-        Me.Button7.Location = New System.Drawing.Point(651, 235)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(102, 32)
-        Me.Button7.TabIndex = 54
-        Me.Button7.Text = "Reset"
-        Me.Button7.UseVisualStyleBackColor = True
+        Me.Button15.BackgroundImage = CType(resources.GetObject("Button15.BackgroundImage"), System.Drawing.Image)
+        Me.Button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button15.Location = New System.Drawing.Point(138, 128)
+        Me.Button15.Name = "Button15"
+        Me.Button15.Size = New System.Drawing.Size(24, 23)
+        Me.Button15.TabIndex = 66
+        Me.ToolTip2.SetToolTip(Me.Button15, "Spirit Box")
+        Me.Button15.UseVisualStyleBackColor = True
         '
-        'ToolTip1
+        'Button16
         '
-        Me.ToolTip1.AutomaticDelay = 400
-        Me.ToolTip1.ToolTipTitle = "Strengths/Weaknesses"
+        Me.Button16.BackgroundImage = CType(resources.GetObject("Button16.BackgroundImage"), System.Drawing.Image)
+        Me.Button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button16.Location = New System.Drawing.Point(138, 152)
+        Me.Button16.Name = "Button16"
+        Me.Button16.Size = New System.Drawing.Size(24, 23)
+        Me.Button16.TabIndex = 67
+        Me.ToolTip2.SetToolTip(Me.Button16, "Spirit Box")
+        Me.Button16.UseVisualStyleBackColor = True
         '
-        'Spiritboxinfo
+        'Button17
         '
-        Me.Spiritboxinfo.BackgroundImage = CType(resources.GetObject("Spiritboxinfo.BackgroundImage"), System.Drawing.Image)
-        Me.Spiritboxinfo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Spiritboxinfo.Location = New System.Drawing.Point(762, 12)
-        Me.Spiritboxinfo.Name = "Spiritboxinfo"
-        Me.Spiritboxinfo.Size = New System.Drawing.Size(24, 23)
-        Me.Spiritboxinfo.TabIndex = 59
-        Me.Spiritboxinfo.TabStop = False
-        Me.ToolTip2.SetToolTip(Me.Spiritboxinfo, "Spirit Box")
-        Me.Spiritboxinfo.UseVisualStyleBackColor = True
+        Me.Button17.BackgroundImage = CType(resources.GetObject("Button17.BackgroundImage"), System.Drawing.Image)
+        Me.Button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button17.Location = New System.Drawing.Point(138, 176)
+        Me.Button17.Name = "Button17"
+        Me.Button17.Size = New System.Drawing.Size(24, 23)
+        Me.Button17.TabIndex = 68
+        Me.ToolTip2.SetToolTip(Me.Button17, "Spirit Box")
+        Me.Button17.UseVisualStyleBackColor = True
         '
-        'fingerprintsinfo
+        'Button18
         '
-        Me.fingerprintsinfo.BackgroundImage = CType(resources.GetObject("fingerprintsinfo.BackgroundImage"), System.Drawing.Image)
-        Me.fingerprintsinfo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.fingerprintsinfo.Location = New System.Drawing.Point(762, 48)
-        Me.fingerprintsinfo.Name = "fingerprintsinfo"
-        Me.fingerprintsinfo.Size = New System.Drawing.Size(24, 23)
-        Me.fingerprintsinfo.TabIndex = 68
-        Me.fingerprintsinfo.TabStop = False
-        Me.ToolTip2.SetToolTip(Me.fingerprintsinfo, "Fingerprints")
-        Me.fingerprintsinfo.UseVisualStyleBackColor = True
+        Me.Button18.BackgroundImage = CType(resources.GetObject("Button18.BackgroundImage"), System.Drawing.Image)
+        Me.Button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button18.Location = New System.Drawing.Point(138, 200)
+        Me.Button18.Name = "Button18"
+        Me.Button18.Size = New System.Drawing.Size(24, 23)
+        Me.Button18.TabIndex = 69
+        Me.ToolTip2.SetToolTip(Me.Button18, "Spirit Box")
+        Me.Button18.UseVisualStyleBackColor = True
         '
-        'ghostwritinginfo
+        'Button19
         '
-        Me.ghostwritinginfo.BackgroundImage = CType(resources.GetObject("ghostwritinginfo.BackgroundImage"), System.Drawing.Image)
-        Me.ghostwritinginfo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ghostwritinginfo.Location = New System.Drawing.Point(762, 86)
-        Me.ghostwritinginfo.Name = "ghostwritinginfo"
-        Me.ghostwritinginfo.Size = New System.Drawing.Size(24, 23)
-        Me.ghostwritinginfo.TabIndex = 69
-        Me.ghostwritinginfo.TabStop = False
-        Me.ToolTip2.SetToolTip(Me.ghostwritinginfo, "Ghost Writing")
-        Me.ghostwritinginfo.UseVisualStyleBackColor = True
+        Me.Button19.BackgroundImage = CType(resources.GetObject("Button19.BackgroundImage"), System.Drawing.Image)
+        Me.Button19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button19.Location = New System.Drawing.Point(138, 224)
+        Me.Button19.Name = "Button19"
+        Me.Button19.Size = New System.Drawing.Size(24, 23)
+        Me.Button19.TabIndex = 70
+        Me.ToolTip2.SetToolTip(Me.Button19, "Spirit Box")
+        Me.Button19.UseVisualStyleBackColor = True
         '
-        'freezingtempsinfo
+        'Button20
         '
-        Me.freezingtempsinfo.BackgroundImage = CType(resources.GetObject("freezingtempsinfo.BackgroundImage"), System.Drawing.Image)
-        Me.freezingtempsinfo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.freezingtempsinfo.Location = New System.Drawing.Point(762, 124)
-        Me.freezingtempsinfo.Name = "freezingtempsinfo"
-        Me.freezingtempsinfo.Size = New System.Drawing.Size(24, 23)
-        Me.freezingtempsinfo.TabIndex = 70
-        Me.freezingtempsinfo.TabStop = False
-        Me.ToolTip2.SetToolTip(Me.freezingtempsinfo, "Freezing Temps")
-        Me.freezingtempsinfo.UseVisualStyleBackColor = True
+        Me.Button20.BackgroundImage = CType(resources.GetObject("Button20.BackgroundImage"), System.Drawing.Image)
+        Me.Button20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button20.Location = New System.Drawing.Point(138, 248)
+        Me.Button20.Name = "Button20"
+        Me.Button20.Size = New System.Drawing.Size(24, 23)
+        Me.Button20.TabIndex = 71
+        Me.ToolTip2.SetToolTip(Me.Button20, "Spirit Box")
+        Me.Button20.UseVisualStyleBackColor = True
         '
-        'emf5info
+        'Button21
         '
-        Me.emf5info.BackgroundImage = CType(resources.GetObject("emf5info.BackgroundImage"), System.Drawing.Image)
-        Me.emf5info.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.emf5info.Location = New System.Drawing.Point(762, 163)
-        Me.emf5info.Name = "emf5info"
-        Me.emf5info.Size = New System.Drawing.Size(24, 23)
-        Me.emf5info.TabIndex = 71
-        Me.emf5info.TabStop = False
-        Me.ToolTip2.SetToolTip(Me.emf5info, "EMF 5")
-        Me.emf5info.UseVisualStyleBackColor = True
+        Me.Button21.BackgroundImage = CType(resources.GetObject("Button21.BackgroundImage"), System.Drawing.Image)
+        Me.Button21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button21.Location = New System.Drawing.Point(138, 272)
+        Me.Button21.Name = "Button21"
+        Me.Button21.Size = New System.Drawing.Size(24, 23)
+        Me.Button21.TabIndex = 72
+        Me.ToolTip2.SetToolTip(Me.Button21, "Spirit Box")
+        Me.Button21.UseVisualStyleBackColor = True
         '
-        'ghostorbinfo
+        'Button22
         '
-        Me.ghostorbinfo.BackgroundImage = CType(resources.GetObject("ghostorbinfo.BackgroundImage"), System.Drawing.Image)
-        Me.ghostorbinfo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ghostorbinfo.Location = New System.Drawing.Point(762, 202)
-        Me.ghostorbinfo.Name = "ghostorbinfo"
-        Me.ghostorbinfo.Size = New System.Drawing.Size(24, 23)
-        Me.ghostorbinfo.TabIndex = 72
-        Me.ghostorbinfo.TabStop = False
-        Me.ToolTip2.SetToolTip(Me.ghostorbinfo, "Ghost Orb")
-        Me.ghostorbinfo.UseVisualStyleBackColor = True
-        '
-        'ToolTip2
-        '
-        Me.ToolTip2.ToolTipTitle = "Information"
-        '
-        'Button23
-        '
-        Me.Button23.Location = New System.Drawing.Point(670, 284)
-        Me.Button23.Name = "Button23"
-        Me.Button23.Size = New System.Drawing.Size(63, 23)
-        Me.Button23.TabIndex = 73
-        Me.Button23.TabStop = False
-        Me.Button23.Text = "Credit"
-        Me.Button23.UseVisualStyleBackColor = True
-        '
-        'Label50
-        '
-        Me.Label50.AutoSize = True
-        Me.Label50.BackColor = System.Drawing.Color.Transparent
-        Me.Label50.Location = New System.Drawing.Point(8, 367)
-        Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(69, 13)
-        Me.Label50.TabIndex = 74
-        Me.Label50.Text = "Ghost Name:"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.BackColor = System.Drawing.Color.LightGray
-        Me.TextBox1.Location = New System.Drawing.Point(5, 383)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(144, 20)
-        Me.TextBox1.TabIndex = 56
+        Me.Button22.BackgroundImage = CType(resources.GetObject("Button22.BackgroundImage"), System.Drawing.Image)
+        Me.Button22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button22.Location = New System.Drawing.Point(138, 296)
+        Me.Button22.Name = "Button22"
+        Me.Button22.Size = New System.Drawing.Size(24, 23)
+        Me.Button22.TabIndex = 73
+        Me.ToolTip2.SetToolTip(Me.Button22, "Spirit Box")
+        Me.Button22.UseVisualStyleBackColor = True
         '
         'Label49
         '
         Me.Label49.AutoSize = True
         Me.Label49.BackColor = System.Drawing.Color.Transparent
-        Me.Label49.Location = New System.Drawing.Point(8, 406)
+        Me.Label49.Location = New System.Drawing.Point(9, 319)
         Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(60, 13)
-        Me.Label49.TabIndex = 76
-        Me.Label49.Text = "Objectives:"
+        Me.Label49.Size = New System.Drawing.Size(255, 13)
+        Me.Label49.TabIndex = 74
+        Me.Label49.Text = "*Mouse over Ghost name for Strength/Weaknesses."
         '
-        'ComboBox1
+        'Button23
         '
-        Me.ComboBox1.AutoCompleteCustomSource.AddRange(New String() {"EMF", "Ghost Picture", "Ghost Event", "Motion Sensor", "Smudge", "Crucifix", "Dirty Water", "Temp Below 10°C/50°F", "Salt"})
-        Me.ComboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
-        Me.ComboBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource
-        Me.ComboBox1.BackColor = System.Drawing.Color.LightGray
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"EMF", "Picture", "Event", "Motion Sensor", "Smudge", "Crucifix", "Temp Below 10°C/50°F", "Salt", "Repel Hunt w/Smudge", "Avg Sanity below 25%", "Escape during Hunt"})
-        Me.ComboBox1.Location = New System.Drawing.Point(5, 476)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(144, 21)
-        Me.ComboBox1.TabIndex = 60
-        '
-        'ComboBox2
-        '
-        Me.ComboBox2.AutoCompleteCustomSource.AddRange(New String() {"EMF", "Ghost Picture", "Ghost Event", "Motion Sensor", "Smudge", "Crucifix", "Dirty Water", "Temp Below 10°C/50°F", "Salt"})
-        Me.ComboBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
-        Me.ComboBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource
-        Me.ComboBox2.BackColor = System.Drawing.Color.LightGray
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"EMF", "Picture", "Event", "Motion Sensor", "Smudge", "Crucifix", "Temp Below 10°C/50°F", "Salt", "Repel Hunt w/Smudge", "Avg Sanity below 25%", "Escape during Hunt"})
-        Me.ComboBox2.Location = New System.Drawing.Point(5, 449)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(144, 21)
-        Me.ComboBox2.TabIndex = 59
-        '
-        'ComboBox3
-        '
-        Me.ComboBox3.AutoCompleteCustomSource.AddRange(New String() {"EMF", "Ghost Picture", "Ghost Event", "Motion Sensor", "Smudge", "Crucifix", "Dirty Water", "Temp Below 10°C/50°F", "Salt"})
-        Me.ComboBox3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend
-        Me.ComboBox3.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource
-        Me.ComboBox3.BackColor = System.Drawing.Color.LightGray
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Items.AddRange(New Object() {"EMF", "Picture", "Event", "Motion Sensor", "Smudge", "Crucifix", "Temp Below 10°C/50°F", "Salt", "Repel Hunt w/Smudge", "Avg Sanity below 25%", "Escape during Hunt"})
-        Me.ComboBox3.Location = New System.Drawing.Point(5, 422)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(144, 21)
-        Me.ComboBox3.TabIndex = 58
-        '
-        'Button24
-        '
-        Me.Button24.Location = New System.Drawing.Point(155, 447)
-        Me.Button24.Name = "Button24"
-        Me.Button24.Size = New System.Drawing.Size(66, 23)
-        Me.Button24.TabIndex = 55
-        Me.Button24.Text = "Clear Objs"
-        Me.Button24.UseVisualStyleBackColor = True
-        '
-        'Label52
-        '
-        Me.Label52.AutoSize = True
-        Me.Label52.BackColor = System.Drawing.Color.Transparent
-        Me.Label52.Location = New System.Drawing.Point(2, 520)
-        Me.Label52.Name = "Label52"
-        Me.Label52.Size = New System.Drawing.Size(82, 13)
-        Me.Label52.TabIndex = 83
-        Me.Label52.Text = "Extra Evidence:"
-        '
-        'CheckBox1
-        '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox1.Location = New System.Drawing.Point(94, 519)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(78, 17)
-        Me.CheckBox1.TabIndex = 84
-        Me.CheckBox1.TabStop = False
-        Me.CheckBox1.Text = "Electronics"
-        Me.CheckBox1.UseVisualStyleBackColor = False
-        '
-        'CheckBox2
-        '
-        Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox2.Location = New System.Drawing.Point(94, 553)
-        Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(114, 17)
-        Me.CheckBox2.TabIndex = 85
-        Me.CheckBox2.TabStop = False
-        Me.CheckBox2.Text = "Displacing Objects"
-        Me.CheckBox2.UseVisualStyleBackColor = False
-        '
-        'CheckBox3
-        '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox3.Location = New System.Drawing.Point(5, 553)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(86, 17)
-        Me.CheckBox3.TabIndex = 86
-        Me.CheckBox3.TabStop = False
-        Me.CheckBox3.Text = "Lights on/off"
-        Me.CheckBox3.UseVisualStyleBackColor = False
-        '
-        'CheckBox4
-        '
-        Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox4.Location = New System.Drawing.Point(5, 536)
-        Me.CheckBox4.Name = "CheckBox4"
-        Me.CheckBox4.Size = New System.Drawing.Size(88, 17)
-        Me.CheckBox4.TabIndex = 87
-        Me.CheckBox4.TabStop = False
-        Me.CheckBox4.Text = "Lights Flicker"
-        Me.CheckBox4.UseVisualStyleBackColor = False
-        '
-        'CheckBox5
-        '
-        Me.CheckBox5.AutoSize = True
-        Me.CheckBox5.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox5.Location = New System.Drawing.Point(5, 570)
-        Me.CheckBox5.Name = "CheckBox5"
-        Me.CheckBox5.Size = New System.Drawing.Size(71, 17)
-        Me.CheckBox5.TabIndex = 88
-        Me.CheckBox5.TabStop = False
-        Me.CheckBox5.Text = "Lights Off"
-        Me.CheckBox5.UseVisualStyleBackColor = False
-        '
-        'CheckBox6
-        '
-        Me.CheckBox6.AutoSize = True
-        Me.CheckBox6.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox6.Location = New System.Drawing.Point(94, 536)
-        Me.CheckBox6.Name = "CheckBox6"
-        Me.CheckBox6.Size = New System.Drawing.Size(139, 17)
-        Me.CheckBox6.TabIndex = 89
-        Me.CheckBox6.TabStop = False
-        Me.CheckBox6.Text = "Disappeared with Photo"
-        Me.CheckBox6.UseVisualStyleBackColor = False
-        '
-        'infobox
-        '
-        Me.infobox.BackColor = System.Drawing.Color.LightGray
-        Me.infobox.Location = New System.Drawing.Point(239, 362)
-        Me.infobox.Name = "infobox"
-        Me.infobox.Size = New System.Drawing.Size(547, 225)
-        Me.infobox.TabIndex = 57
-        Me.infobox.TabStop = False
-        Me.infobox.Text = ""
-        '
-        'CheckBox7
-        '
-        Me.CheckBox7.AutoSize = True
-        Me.CheckBox7.BackColor = System.Drawing.Color.Transparent
-        Me.CheckBox7.Location = New System.Drawing.Point(94, 570)
-        Me.CheckBox7.Name = "CheckBox7"
-        Me.CheckBox7.Size = New System.Drawing.Size(110, 17)
-        Me.CheckBox7.TabIndex = 90
-        Me.CheckBox7.TabStop = False
-        Me.CheckBox7.Text = "Power Source Off"
-        Me.CheckBox7.UseVisualStyleBackColor = False
-        '
-        'Label51
-        '
-        Me.Label51.BackColor = System.Drawing.Color.Transparent
-        Me.Label51.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label51.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label51.ForeColor = System.Drawing.Color.Navy
-        Me.Label51.Location = New System.Drawing.Point(9, 319)
-        Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(156, 24)
-        Me.Label51.TabIndex = 74
-        Me.Label51.Text = "Yokai"
-        '
-        'Label53
-        '
-        Me.Label53.BackColor = System.Drawing.Color.Transparent
-        Me.Label53.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label53.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label53.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label53.Location = New System.Drawing.Point(477, 319)
-        Me.Label53.Name = "Label53"
-        Me.Label53.Size = New System.Drawing.Size(156, 24)
-        Me.Label53.TabIndex = 77
-        Me.Label53.Text = "Ghost Writing"
-        '
-        'Label54
-        '
-        Me.Label54.BackColor = System.Drawing.Color.Transparent
-        Me.Label54.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label54.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label54.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label54.Location = New System.Drawing.Point(321, 319)
-        Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(156, 24)
-        Me.Label54.TabIndex = 76
-        Me.Label54.Text = "Ghost Orb"
-        '
-        'Label55
-        '
-        Me.Label55.BackColor = System.Drawing.Color.Transparent
-        Me.Label55.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label55.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label55.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label55.Location = New System.Drawing.Point(165, 319)
-        Me.Label55.Name = "Label55"
-        Me.Label55.Size = New System.Drawing.Size(156, 24)
-        Me.Label55.TabIndex = 75
-        Me.Label55.Text = "Spirit Box"
-        '
-        'Label56
-        '
-        Me.Label56.BackColor = System.Drawing.Color.Transparent
-        Me.Label56.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label56.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label56.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label56.Location = New System.Drawing.Point(477, 343)
-        Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(156, 24)
-        Me.Label56.TabIndex = 81
-        Me.Label56.Text = "Ghost Writing"
-        '
-        'Label57
-        '
-        Me.Label57.BackColor = System.Drawing.Color.Transparent
-        Me.Label57.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label57.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label57.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label57.Location = New System.Drawing.Point(321, 343)
-        Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(156, 24)
-        Me.Label57.TabIndex = 80
-        Me.Label57.Text = "Fingerprints"
-        '
-        'Label58
-        '
-        Me.Label58.BackColor = System.Drawing.Color.Transparent
-        Me.Label58.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label58.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label58.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Label58.Location = New System.Drawing.Point(165, 343)
-        Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(156, 24)
-        Me.Label58.TabIndex = 79
-        Me.Label58.Text = "Ghost Orb"
-        '
-        'Label59
-        '
-        Me.Label59.BackColor = System.Drawing.Color.Transparent
-        Me.Label59.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.Label59.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label59.ForeColor = System.Drawing.Color.Navy
-        Me.Label59.Location = New System.Drawing.Point(9, 343)
-        Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(156, 24)
-        Me.Label59.TabIndex = 78
-        Me.Label59.Text = "Hantu"
-        '
-        'Button25
-        '
-        Me.Button25.BackgroundImage = CType(resources.GetObject("Button25.BackgroundImage"), System.Drawing.Image)
-        Me.Button25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button25.Location = New System.Drawing.Point(138, 343)
-        Me.Button25.Name = "Button25"
-        Me.Button25.Size = New System.Drawing.Size(24, 23)
-        Me.Button25.TabIndex = 83
-        Me.Button25.TabStop = False
-        Me.ToolTip2.SetToolTip(Me.Button25, "Hantu")
-        Me.Button25.UseVisualStyleBackColor = True
-        '
-        'Button26
-        '
-        Me.Button26.BackgroundImage = CType(resources.GetObject("Button26.BackgroundImage"), System.Drawing.Image)
-        Me.Button26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button26.Location = New System.Drawing.Point(138, 319)
-        Me.Button26.Name = "Button26"
-        Me.Button26.Size = New System.Drawing.Size(24, 23)
-        Me.Button26.TabIndex = 82
-        Me.Button26.TabStop = False
-        Me.ToolTip2.SetToolTip(Me.Button26, "Yokai")
-        Me.Button26.UseVisualStyleBackColor = True
+        Me.Button23.Location = New System.Drawing.Point(3, 2)
+        Me.Button23.Name = "Button23"
+        Me.Button23.Size = New System.Drawing.Size(45, 23)
+        Me.Button23.TabIndex = 73
+        Me.Button23.Text = "Credit"
+        Me.Button23.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -1425,26 +1112,8 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(798, 599)
-        Me.Controls.Add(Me.CheckBox7)
-        Me.Controls.Add(Me.CheckBox6)
-        Me.Controls.Add(Me.CheckBox5)
-        Me.Controls.Add(Me.CheckBox4)
-        Me.Controls.Add(Me.CheckBox3)
-        Me.Controls.Add(Me.CheckBox2)
-        Me.Controls.Add(Me.CheckBox1)
-        Me.Controls.Add(Me.Label52)
-        Me.Controls.Add(Me.Button24)
-        Me.Controls.Add(Me.ComboBox3)
-        Me.Controls.Add(Me.ComboBox2)
-        Me.Controls.Add(Me.ComboBox1)
-        Me.Controls.Add(Me.Label49)
-        Me.Controls.Add(Me.TextBox1)
+        Me.ClientSize = New System.Drawing.Size(799, 492)
         Me.Controls.Add(Me.Button23)
-        Me.Controls.Add(Me.Button11)
-        Me.Controls.Add(Me.Label50)
-        Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Button10)
         Me.Controls.Add(Me.ghostorbinfo)
         Me.Controls.Add(Me.emf5info)
         Me.Controls.Add(Me.freezingtempsinfo)
@@ -1462,10 +1131,10 @@ Partial Class Form1
         Me.Controls.Add(Me.Button1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
-        Me.Text = "PhasmoChart"
+        Me.Text = "Phasmochart"
         Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
@@ -1526,6 +1195,7 @@ Partial Class Form1
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents Button7 As Button
     Friend WithEvents ToolTip1 As ToolTip
+    Friend WithEvents infobox As RichTextBox
     Friend WithEvents Button8 As Button
     Friend WithEvents Spiritboxinfo As Button
     Friend WithEvents Button10 As Button
@@ -1536,6 +1206,7 @@ Partial Class Form1
     Friend WithEvents emf5info As Button
     Friend WithEvents ghostorbinfo As Button
     Friend WithEvents ToolTip2 As ToolTip
+    Friend WithEvents Label49 As Label
     Friend WithEvents Button22 As Button
     Friend WithEvents Button21 As Button
     Friend WithEvents Button20 As Button
@@ -1549,30 +1220,4 @@ Partial Class Form1
     Friend WithEvents Button12 As Button
     Friend WithEvents Button9 As Button
     Friend WithEvents Button23 As Button
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Label50 As Label
-    Friend WithEvents Label49 As Label
-    Friend WithEvents ComboBox1 As ComboBox
-    Friend WithEvents ComboBox2 As ComboBox
-    Friend WithEvents ComboBox3 As ComboBox
-    Friend WithEvents Button24 As Button
-    Friend WithEvents Label52 As Label
-    Friend WithEvents CheckBox1 As CheckBox
-    Friend WithEvents CheckBox2 As CheckBox
-    Friend WithEvents CheckBox3 As CheckBox
-    Friend WithEvents CheckBox4 As CheckBox
-    Friend WithEvents CheckBox5 As CheckBox
-    Friend WithEvents CheckBox6 As CheckBox
-    Friend WithEvents infobox As RichTextBox
-    Friend WithEvents CheckBox7 As CheckBox
-    Friend WithEvents Label51 As Label
-    Friend WithEvents Label53 As Label
-    Friend WithEvents Label54 As Label
-    Friend WithEvents Label55 As Label
-    Friend WithEvents Label56 As Label
-    Friend WithEvents Label57 As Label
-    Friend WithEvents Label58 As Label
-    Friend WithEvents Label59 As Label
-    Friend WithEvents Button25 As Button
-    Friend WithEvents Button26 As Button
 End Class
